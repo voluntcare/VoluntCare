@@ -1,0 +1,19 @@
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
+
+
+#missions
+
+	div
+{
+	border: 1px #36383B solid;
+	border-radius: 10px;
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-left: 15%
+
+
+}

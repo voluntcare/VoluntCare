@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Identity </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="p3_assets/main.css" />
+	</head>
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+
+		<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align w3-large">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="" class="w3-bar-item w3-button w3-padding-large w3-theme-d4"><i class=""><img src="logo.png" style="height:150px;width:150px" alt="Avatar"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white" title="My Account"><img src="" class="w3-circle" style="height:25px;width:25px" alt=""></a>
+ </div>
+</div>
+				<!-- Main -->
+					<section id="main">
+						
+						
+						<h2>Sign In!</h2>
+						<form method="post" action="#">
+							<div class="field">
+								<input type="text" name="name" id="name" placeholder="Name" />
+							</div>
+							<div class="field">
+								<input type="text" name="surname" id="surname" placeholder="Surname" />
+							</div>
+							<div class="field">
+								<input type="email" name="email" id="email" placeholder="Email" />
+							</div>
+							<div class="field">
+								<input type="date" name="Birthday" id="Birthday" placeholder="Birthday" />
+							</div>
+						</form>
+
+						 <form method="post" action="#" id=“form2>
+   <p>
+       You are <br />
+       <input type="checkbox" name="A girl" id="girl" /> <label for="girl">A girl</label><br />
+       <input type="checkbox" name="A man" id="man" /> <label for="man">A man</label><br />
+      
+   </p>
+							</form>
+
+
+
+							 <form method="post" action="#" id=“form2>
+   <p>
+       Get started: What are you main interests ?<br />
+       <input type="checkbox" name="frites" id="frites" /> <label for="frites">Sports</label><br />
+       <input type="checkbox" name="steak" id="steak" /> <label for="steak">Education</label><br />
+       <input type="checkbox" name="epinards" id="epinards" /> <label for="epinards">Science and technologies</label><br />
+       <input type="checkbox" name="huitres" id="huitres" /> <label for="huitres">Environment</label>
+     	<textarea name="other" id="other" placeholder="other" rows="1"></textarea>
+   </p>
+							</form>
+							
+							<div class="field">
+								<label>Are you interested in short-term or long-term assignments?</label>
+								<input type="radio" id="robot_yes" name="robot" /><label for="robot_yes">Short-term</label>
+								<input type="radio" id="robot_no" name="robot" /><label for="robot_no">Long-term</label>
+							</div>
+							<div class="field">
+								<input type="checkbox" id="human" name="human" /><label for="human">By the way, I want to receive your newsletter!</label>
+							</div>
+							<ul class="actions">
+								<li><a href="page4.html" class="button">Get Started</a></li>
+							</ul>
+						</form>
+						<hr />
+					</section>
+
+			</div>
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
+
+	</body>
+</html>
